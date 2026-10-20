@@ -1,0 +1,6 @@
+title: Back to Me
+theme: jekyll-theme-minimal
+plugins:
+  - jekyll-seo-tag
+markdown: kramdown
+permalink: /:categories/:title
