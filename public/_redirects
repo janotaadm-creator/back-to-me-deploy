@@ -1,0 +1,2 @@
+# Proxy API requests to backend
+/api/stripe/* https://back-to-me-backend.vercel.app/api/stripe/:splat 200
