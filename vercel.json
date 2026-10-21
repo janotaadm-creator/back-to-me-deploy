@@ -1,0 +1,5 @@
+{
+  "buildCommand": "echo 'Static files - no build needed'",
+  "outputDirectory": "public",
+  "installCommand": "npm install || true"
+}

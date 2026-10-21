@@ -1,0 +1,12 @@
+name = "back-to-me-landing"
+type = "javascript"
+account_id = ""
+workers_dev = true
+main = "src/index.js"
+build = { command = "echo 'static files'" }
+env.production.routes = [
+  { pattern = "back-to-me-landing.pages.dev", zone_name = "pages.dev" }
+]
+
+[build.upload]
+format = "service-worker"
