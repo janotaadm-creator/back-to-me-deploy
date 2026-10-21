@@ -1,0 +1,19 @@
+{
+  "name": "back-to-me-landing",
+  "version": "1.0.0",
+  "description": "Static landing page for Back to Me app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": ["landing", "back-to-me"],
+  "author": "Senlux",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
